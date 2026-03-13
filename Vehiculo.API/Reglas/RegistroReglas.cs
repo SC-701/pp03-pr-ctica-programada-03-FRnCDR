@@ -15,7 +15,7 @@ namespace Reglas
 
         public RegistroReglas(IRegistroServicio registroServicio, IConfiguracion configuracion)
         {
-            this._registroServicio = registroServicio;
+            _registroServicio = registroServicio;
             _configuracion = configuracion;
         }
 
